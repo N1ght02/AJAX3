@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Flint Naafs MG1B">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>AJAX3</title>
+		<style>
+
+			button.bereken {
+				padding: 10px 16px;
+				text-decoration: none;
+				background-color: #407de1;
+				color: white;
+				cursor: pointer;
+				border: none;
+				font-size: 20px;
+			
+			}
+
+			button.bereken:hover {
+				padding: 10px 16px;
+				text-decoration: none;
+				background-color: #333;
+				color: white;
+				cursor: pointer;
+				border: none;
+				font-size: 20px;
+
+			}
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<h2>AJAX3</h2>
+		</header>
+
+		<div id="input" style="margin-left: 43%;margin-top: 100px;">
+			<h3>AJAX3 Search</h3><br>
+			<input type="text" id="question" placeholder="type your question here" onkeyup="ajax()" onfocus="clear()"><br><br>
+			<div id="txtHint"><b>Persons will be listed here</b></div>
+			<script src="script.js"></script>
+		</div>
+	</body>
+</html>
